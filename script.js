@@ -208,6 +208,7 @@ toggle.addEventListener('click', function() {
         headerframe.style.color = "white";
         description.style.color = "white";
         loadingdata.style.color = "white";
+        loadingdata2.style.color = "white";
         toggleimg.style.filter = "invert(100%)";
 
         light = true;
@@ -223,6 +224,7 @@ toggle.addEventListener('click', function() {
         headerframe.style.color = "#4E5A51";
         description.style.color = "#4E5A51";
         loadingdata.style.color = "black";
+        loadingdata2.style.color = "black";
         toggleimg.style.filter = "invert(0%)";
 
         light = false;
