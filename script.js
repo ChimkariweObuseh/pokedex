@@ -7,6 +7,7 @@ let pokemoncard = document.querySelector('.pokemon-card');
 let input = document.querySelector('.search-bar');
 let loading = document.querySelector('.loading');
 let loadingdata = document.querySelector('.loadingdata');
+let loadingdata2 = document.querySelector('.loadingdata2');
 let toggle = document.querySelector('.darklighttoggle');
 let toggleimg = document.querySelector('.darklighttoggleimg');
 let light = true;
@@ -184,9 +185,11 @@ function completeLoading() {
     pokemoncard.style.display = 'inline-block';
     loading.style.opacity = 0;
     loadingdata.style.opacity = 0;
+    loadingdata2.style.opacity = 0;
     setTimeout(() => {
         menu.style.opacity = 1;
         loadingdata.style.display = 'none';
+        loadingdata2.style.display = 'none';
         loading.style.display = 'none';
     }, 1000);
     completedLoading = true;
