@@ -84,7 +84,6 @@ window.onload = async function() {
 
 
         console.log(pokemon.id);
-document.getElementsByClassName('ldBar')[0].setAttribute(data-value, Math.round(pokemon.id / 10.24));
 
         setInterval(function() {
             if (pokemon.id >= 1024) {
