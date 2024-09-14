@@ -251,4 +251,4 @@ function displayErrorMessage(str) {
 
 setInterval(function(){
 document.getElementsByClassName('ldBar')[0].setAttribute(data-value, Math.round(pokemon.id / 10.24));
-},1);
+},101);
