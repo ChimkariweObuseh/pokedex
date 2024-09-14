@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Pókedex</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    Pokédex
+    <button class="darklighttoggle">
+      <img src="IMG_5526.png" alt="Dark Mode Toggle" class="darklighttoggleimg">
+    </button>
+  </div>
+  <div class="wrapper">
+  <div class=" pokemon pokemon-card">
+    <div class="pokemon-card-header">
+      <h1 class='hm'></h1>
+  </div>
+    <div class="pokemon-card-body">
+      <img class="pokemonimage" src="" alt=""/>
+      <p class="description"></p>
+    </div>
+  </div>
+    <div class=" pokemon pokemon-select-menu">
+      <div class='search'>
+        <input type="text" class="search-bar" placeholder="Search Pokémon...">
+      </div>
+    </div>
+  </div>
+  <h1 class="loadingdata">Loading Data...</h1>
+  <div id="myProgress">
+    <div id="myBar"></div>
+  </div>
+  <h3 class="loadingdata2">This may take a few minutes...</h3>
+  <img src="IMG_5519.gif" alt="loading" class="loading">
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
